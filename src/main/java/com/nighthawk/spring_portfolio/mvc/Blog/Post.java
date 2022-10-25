@@ -1,6 +1,9 @@
 package com.nighthawk.spring_portfolio.mvc.Blog;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
+
+import com.nighthawk.spring_portfolio.mvc.Blog.Login.Account;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -18,4 +21,9 @@ public class Post {
     @Column(columnDefinition="TEXT")
     private String body;
     private LocalDateTime createdAt;
+
+    @NotNull
+    @ManyToOne
+    @JoinColumn(name="account_id", referencedColumnName="id", nullable=false)
+    private Account account;
 }
