@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <a th:href="@{/}">Home</a>
+        <a th:href="@{/}">Blog</a>
         <div class="post">
             <h2 th:text="${post.title}">Title</h2>
             <h5 th:text="'Written By ' + ${post.account.firstName}+ ' '+${post.account.lastName}">Account Name</h5>

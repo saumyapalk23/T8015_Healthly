@@ -1,4 +1,4 @@
-package com.nighthawk.spring_portfolio.mvc.covid;
+package com.nighthawk.spring_portfolio.mvc.news;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -14,15 +14,15 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController // annotation to create a RESTful web services
-@RequestMapping("/api/covid")  //prefix of API
-public class CovidApiController {
+@RequestMapping("/news")  //prefix of API
+public class news {
     private JSONObject body; //last run result
     private HttpStatus status; //last run status
     String last_run = null; //last run day of month
 
     // GET Covid 19 Stats
-    @GetMapping("/daily")   //added to end of prefix as endpoint
-    public ResponseEntity<JSONObject> getCovid() {
+    @GetMapping("/all")   //added to end of prefix as endpoint
+    public ResponseEntity<JSONObject> getNews() {
 
         //calls API once a day, sets body and status properties
         String today = new Date().toString().substring(0,10); 
@@ -30,17 +30,16 @@ public class CovidApiController {
         {
             try {  //APIs can fail (ie Internet or Service down)
                 
-                //RapidAPI header
                 HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("https://corona-virus-world-and-india-data.p.rapidapi.com/api"))
-                    .header("x-rapidapi-key", "dec069b877msh0d9d0827664078cp1a18fajsn2afac35ae063")
-                    .header("x-rapidapi-host", "corona-virus-world-and-india-data.p.rapidapi.com")
+                    .uri(URI.create("https://mental-health-info-api.p.rapidapi.com/news"))
+                    .header("X-RapidAPI-Key", "95798f48fcmsheb95af41fb5e7a3p1cc503jsn1c033886f550")
+                    .header("X-RapidAPI-Host", "mental-health-info-api.p.rapidapi.com")
                     .method("GET", HttpRequest.BodyPublishers.noBody())
                     .build();
-
+                
                 //RapidAPI request and response
                 HttpResponse<String> response = HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
-
+                System.out.println(response.body());
                 //JSONParser extracts text body and parses to JSONObject
                 this.body = (JSONObject) new JSONParser().parse(response.body());
                 this.status = HttpStatus.OK;  //200 success
