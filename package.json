@@ -1,0 +1,33 @@
+{
+  "name": "healthysite",
+  "version": "1.0.0",
+  "description": "first socket.io",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "error: failed to connect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saumyapalk23/T8015_Healthly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saumyapalk23/T8015_Healthly/issues"
+  },
+  "homepage": "https://github.com/saumyapalk23/T8015_Healthly#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "eiows": "^4.1.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  },
+  "keywords": [],
+  "optionalDependencies": {
+    "bufferutil": "^4.0.7",
+    "utf-8-validate": "^5.0.10"
+  }
+}

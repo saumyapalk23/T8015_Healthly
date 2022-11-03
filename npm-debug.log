@@ -1,0 +1,470 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/spalak06/anaconda3/bin/node',
+1 verbose cli   '/home/spalak06/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.12
+3 info using node@v6.11.2
+4 verbose readDependencies loading dependencies from /mnt/c/Users/Saumya/.vscode/T8015_Healthly/package.json
+5 verbose install where, deps [ '/mnt/c/Users/Saumya/.vscode/T8015_Healthly',
+5 verbose install   [ 'eiows',
+5 verbose install     'express',
+5 verbose install     'socket.io',
+5 verbose install     'bufferutil',
+5 verbose install     'utf-8-validate',
+5 verbose install     'nodemon' ] ]
+6 verbose install where, peers [ '/mnt/c/Users/Saumya/.vscode/T8015_Healthly', [] ]
+7 verbose installManyTop reading for lifecycle /mnt/c/Users/Saumya/.vscode/T8015_Healthly/package.json
+8 info preinstall healthysite@1.0.0
+9 verbose readDependencies loading dependencies from /mnt/c/Users/Saumya/.vscode/T8015_Healthly/package.json
+10 silly cache add args [ 'eiows@^4.1.2', null ]
+11 verbose cache add spec eiows@^4.1.2
+12 silly cache add args [ 'express@^4.18.2', null ]
+13 verbose cache add spec express@^4.18.2
+14 silly cache add parsed spec Result {
+14 silly cache add   raw: 'eiows@^4.1.2',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'eiows',
+14 silly cache add   rawSpec: '^4.1.2',
+14 silly cache add   spec: '>=4.1.2 <5.0.0',
+14 silly cache add   type: 'range' }
+15 silly addNamed eiows@>=4.1.2 <5.0.0
+16 verbose addNamed ">=4.1.2 <5.0.0" is a valid semver range for eiows
+17 silly addNameRange { name: 'eiows', range: '>=4.1.2 <5.0.0', hasData: false }
+18 silly mapToRegistry name eiows
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://github.com/saumyapalk23/T8015_Healthly.git
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: 'eiows',
+21 silly mapToRegistry   scope: null,
+21 silly mapToRegistry   name: 'eiows',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag' }
+22 silly mapToRegistry uri https://github.com/saumyapalk23/T8015_Healthly.git/eiows
+23 verbose addNameRange registry:https://github.com/saumyapalk23/T8015_Healthly.git/eiows not in flight; fetching
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: 'express@^4.18.2',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'express',
+24 silly cache add   rawSpec: '^4.18.2',
+24 silly cache add   spec: '>=4.18.2 <5.0.0',
+24 silly cache add   type: 'range' }
+25 silly addNamed express@>=4.18.2 <5.0.0
+26 verbose addNamed ">=4.18.2 <5.0.0" is a valid semver range for express
+27 silly addNameRange { name: 'express', range: '>=4.18.2 <5.0.0', hasData: false }
+28 silly mapToRegistry name express
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://github.com/saumyapalk23/T8015_Healthly.git
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'express',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   name: 'express',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://github.com/saumyapalk23/T8015_Healthly.git/express
+33 verbose addNameRange registry:https://github.com/saumyapalk23/T8015_Healthly.git/express not in flight; fetching
+34 silly cache add args [ 'socket.io@^4.5.3', null ]
+35 verbose cache add spec socket.io@^4.5.3
+36 silly cache add parsed spec Result {
+36 silly cache add   raw: 'socket.io@^4.5.3',
+36 silly cache add   scope: null,
+36 silly cache add   name: 'socket.io',
+36 silly cache add   rawSpec: '^4.5.3',
+36 silly cache add   spec: '>=4.5.3 <5.0.0',
+36 silly cache add   type: 'range' }
+37 silly addNamed socket.io@>=4.5.3 <5.0.0
+38 verbose addNamed ">=4.5.3 <5.0.0" is a valid semver range for socket.io
+39 silly addNameRange { name: 'socket.io', range: '>=4.5.3 <5.0.0', hasData: false }
+40 silly mapToRegistry name socket.io
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://github.com/saumyapalk23/T8015_Healthly.git
+43 silly mapToRegistry data Result {
+43 silly mapToRegistry   raw: 'socket.io',
+43 silly mapToRegistry   scope: null,
+43 silly mapToRegistry   name: 'socket.io',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag' }
+44 silly mapToRegistry uri https://github.com/saumyapalk23/T8015_Healthly.git/socket.io
+45 verbose addNameRange registry:https://github.com/saumyapalk23/T8015_Healthly.git/socket.io not in flight; fetching
+46 silly cache add args [ 'bufferutil@^4.0.7', null ]
+47 verbose cache add spec bufferutil@^4.0.7
+48 silly cache add parsed spec Result {
+48 silly cache add   raw: 'bufferutil@^4.0.7',
+48 silly cache add   scope: null,
+48 silly cache add   name: 'bufferutil',
+48 silly cache add   rawSpec: '^4.0.7',
+48 silly cache add   spec: '>=4.0.7 <5.0.0',
+48 silly cache add   type: 'range' }
+49 silly addNamed bufferutil@>=4.0.7 <5.0.0
+50 verbose addNamed ">=4.0.7 <5.0.0" is a valid semver range for bufferutil
+51 silly addNameRange { name: 'bufferutil', range: '>=4.0.7 <5.0.0', hasData: false }
+52 silly mapToRegistry name bufferutil
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://github.com/saumyapalk23/T8015_Healthly.git
+55 silly mapToRegistry data Result {
+55 silly mapToRegistry   raw: 'bufferutil',
+55 silly mapToRegistry   scope: null,
+55 silly mapToRegistry   name: 'bufferutil',
+55 silly mapToRegistry   rawSpec: '',
+55 silly mapToRegistry   spec: 'latest',
+55 silly mapToRegistry   type: 'tag' }
+56 silly mapToRegistry uri https://github.com/saumyapalk23/T8015_Healthly.git/bufferutil
+57 verbose addNameRange registry:https://github.com/saumyapalk23/T8015_Healthly.git/bufferutil not in flight; fetching
+58 silly cache add args [ 'utf-8-validate@^5.0.10', null ]
+59 verbose cache add spec utf-8-validate@^5.0.10
+60 silly cache add parsed spec Result {
+60 silly cache add   raw: 'utf-8-validate@^5.0.10',
+60 silly cache add   scope: null,
+60 silly cache add   name: 'utf-8-validate',
+60 silly cache add   rawSpec: '^5.0.10',
+60 silly cache add   spec: '>=5.0.10 <6.0.0',
+60 silly cache add   type: 'range' }
+61 silly addNamed utf-8-validate@>=5.0.10 <6.0.0
+62 verbose addNamed ">=5.0.10 <6.0.0" is a valid semver range for utf-8-validate
+63 silly addNameRange { name: 'utf-8-validate',
+63 silly addNameRange   range: '>=5.0.10 <6.0.0',
+63 silly addNameRange   hasData: false }
+64 silly mapToRegistry name utf-8-validate
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://github.com/saumyapalk23/T8015_Healthly.git
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'utf-8-validate',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   name: 'utf-8-validate',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri https://github.com/saumyapalk23/T8015_Healthly.git/utf-8-validate
+69 verbose addNameRange registry:https://github.com/saumyapalk23/T8015_Healthly.git/utf-8-validate not in flight; fetching
+70 silly cache add args [ 'nodemon@^2.0.20', null ]
+71 verbose cache add spec nodemon@^2.0.20
+72 silly cache add parsed spec Result {
+72 silly cache add   raw: 'nodemon@^2.0.20',
+72 silly cache add   scope: null,
+72 silly cache add   name: 'nodemon',
+72 silly cache add   rawSpec: '^2.0.20',
+72 silly cache add   spec: '>=2.0.20 <3.0.0',
+72 silly cache add   type: 'range' }
+73 silly addNamed nodemon@>=2.0.20 <3.0.0
+74 verbose addNamed ">=2.0.20 <3.0.0" is a valid semver range for nodemon
+75 silly addNameRange { name: 'nodemon', range: '>=2.0.20 <3.0.0', hasData: false }
+76 silly mapToRegistry name nodemon
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://github.com/saumyapalk23/T8015_Healthly.git
+79 silly mapToRegistry data Result {
+79 silly mapToRegistry   raw: 'nodemon',
+79 silly mapToRegistry   scope: null,
+79 silly mapToRegistry   name: 'nodemon',
+79 silly mapToRegistry   rawSpec: '',
+79 silly mapToRegistry   spec: 'latest',
+79 silly mapToRegistry   type: 'tag' }
+80 silly mapToRegistry uri https://github.com/saumyapalk23/T8015_Healthly.git/nodemon
+81 verbose addNameRange registry:https://github.com/saumyapalk23/T8015_Healthly.git/nodemon not in flight; fetching
+82 verbose request uri https://github.com/saumyapalk23/T8015_Healthly.git/eiows
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 2:24:45 PM
+85 verbose request id 1cf44e1ef8e94238
+86 http request GET https://github.com/saumyapalk23/T8015_Healthly.git/eiows
+87 verbose request uri https://github.com/saumyapalk23/T8015_Healthly.git/express
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 2:24:45 PM
+90 http request GET https://github.com/saumyapalk23/T8015_Healthly.git/express
+91 verbose request uri https://github.com/saumyapalk23/T8015_Healthly.git/socket.io
+92 verbose request no auth needed
+93 info attempt registry request try #1 at 2:24:45 PM
+94 http request GET https://github.com/saumyapalk23/T8015_Healthly.git/socket.io
+95 verbose request uri https://github.com/saumyapalk23/T8015_Healthly.git/bufferutil
+96 verbose request no auth needed
+97 info attempt registry request try #1 at 2:24:45 PM
+98 http request GET https://github.com/saumyapalk23/T8015_Healthly.git/bufferutil
+99 verbose request uri https://github.com/saumyapalk23/T8015_Healthly.git/utf-8-validate
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 2:24:45 PM
+102 http request GET https://github.com/saumyapalk23/T8015_Healthly.git/utf-8-validate
+103 verbose request uri https://github.com/saumyapalk23/T8015_Healthly.git/nodemon
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 2:24:45 PM
+106 http request GET https://github.com/saumyapalk23/T8015_Healthly.git/nodemon
+107 http 404 https://github.com/saumyapalk23/T8015_Healthly.git/eiows
+108 verbose headers { server: 'GitHub.com',
+108 verbose headers   date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+108 verbose headers   'content-type': 'application/json; charset=utf-8',
+108 verbose headers   vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+108 verbose headers   'cache-control': 'no-cache',
+108 verbose headers   'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+108 verbose headers   'x-frame-options': 'deny',
+108 verbose headers   'x-content-type-options': 'nosniff',
+108 verbose headers   'x-xss-protection': '0',
+108 verbose headers   'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+108 verbose headers   'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+108 verbose headers   'content-encoding': 'gzip',
+108 verbose headers   'set-cookie':
+108 verbose headers    [ '_gh_sess=vPBW6%2BUVTTh35TCzrFK5IA0pa6Aes4wPh2CAgwOk7iOBkNq0N0T9ZOibqp8iYnALyGtMTZZZ%2Bpn4N%2FD%2BUlLxEfm4brORlFiw2BOyj%2Fcj61fmFHHuXDtQUS4Z%2F4tRz1tHkz9MRjRxKpW%2BPEeqUCeQlzsdoinMSpOh3yHOUtm8YTs09EpyJG3sasmEXs%2B2au2xE8uU%2FG8hKehvazM1ENqAZ6Em36xjxDIHAaZmZPZruGhIw6XLKatLz09PAfuk69orLWS5y%2FqFYQTSirlvYxs02Q%3D%3D--vo3LGNpwHCJ9bHX5--iLo523zhUBw1mTaAbbyK0A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+108 verbose headers      '_octo=GH1.1.1751601063.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+108 verbose headers      'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+108 verbose headers   'content-length': '52',
+108 verbose headers   'x-github-request-id': 'D1F9:6D5F:1231FCE:1346F08:6364319E' }
+109 silly get cb [ 404,
+109 silly get   { server: 'GitHub.com',
+109 silly get     date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+109 silly get     'content-type': 'application/json; charset=utf-8',
+109 silly get     vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+109 silly get     'cache-control': 'no-cache',
+109 silly get     'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+109 silly get     'x-frame-options': 'deny',
+109 silly get     'x-content-type-options': 'nosniff',
+109 silly get     'x-xss-protection': '0',
+109 silly get     'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+109 silly get     'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+109 silly get     'content-encoding': 'gzip',
+109 silly get     'set-cookie':
+109 silly get      [ '_gh_sess=vPBW6%2BUVTTh35TCzrFK5IA0pa6Aes4wPh2CAgwOk7iOBkNq0N0T9ZOibqp8iYnALyGtMTZZZ%2Bpn4N%2FD%2BUlLxEfm4brORlFiw2BOyj%2Fcj61fmFHHuXDtQUS4Z%2F4tRz1tHkz9MRjRxKpW%2BPEeqUCeQlzsdoinMSpOh3yHOUtm8YTs09EpyJG3sasmEXs%2B2au2xE8uU%2FG8hKehvazM1ENqAZ6Em36xjxDIHAaZmZPZruGhIw6XLKatLz09PAfuk69orLWS5y%2FqFYQTSirlvYxs02Q%3D%3D--vo3LGNpwHCJ9bHX5--iLo523zhUBw1mTaAbbyK0A%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+109 silly get        '_octo=GH1.1.1751601063.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+109 silly get        'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+109 silly get     'content-length': '52',
+109 silly get     'x-github-request-id': 'D1F9:6D5F:1231FCE:1346F08:6364319E' } ]
+110 http 404 https://github.com/saumyapalk23/T8015_Healthly.git/nodemon
+111 verbose headers { server: 'GitHub.com',
+111 verbose headers   date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+111 verbose headers   'content-type': 'application/json; charset=utf-8',
+111 verbose headers   vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+111 verbose headers   'cache-control': 'no-cache',
+111 verbose headers   'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+111 verbose headers   'x-frame-options': 'deny',
+111 verbose headers   'x-content-type-options': 'nosniff',
+111 verbose headers   'x-xss-protection': '0',
+111 verbose headers   'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+111 verbose headers   'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+111 verbose headers   'content-encoding': 'gzip',
+111 verbose headers   'set-cookie':
+111 verbose headers    [ '_gh_sess=J%2FHPZ8fIvQ11aVq9aeKYhpCHqQFJLQ0zK9xJFOOcDATm%2FM3kJAz6vdE%2FmAlLoSKcUqSCE2ACKYs8DoEvSGfr6Vvq%2FtCG28EqjhgJ%2F9dywFIQuLUS%2BOQArimsYmg3C2P3ADUvfKiLP78VjfsYvbcp1SGLZ8ScW1UwQ55SIPAKwsMFpWVFltMcHrD3cs8wWDrdgiK3FNdm8PK%2BeycwPGc2cDOPsomRwtW28hJ%2BXwTP%2BNRrazCLt1HRTQTw9a5D%2B6AEnCv6tzJ2S%2FRR3AvVuPxUxw%3D%3D--rH26Jb%2BymQ23182w--Iv9Sfd6Fb1HTaeCbQxlaGQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+111 verbose headers      '_octo=GH1.1.758042193.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+111 verbose headers      'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+111 verbose headers   'content-length': '52',
+111 verbose headers   'x-github-request-id': 'CB36:34C3:1289AEF:13A1D03:6364319E' }
+112 silly get cb [ 404,
+112 silly get   { server: 'GitHub.com',
+112 silly get     date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+112 silly get     'content-type': 'application/json; charset=utf-8',
+112 silly get     vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+112 silly get     'cache-control': 'no-cache',
+112 silly get     'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+112 silly get     'x-frame-options': 'deny',
+112 silly get     'x-content-type-options': 'nosniff',
+112 silly get     'x-xss-protection': '0',
+112 silly get     'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+112 silly get     'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+112 silly get     'content-encoding': 'gzip',
+112 silly get     'set-cookie':
+112 silly get      [ '_gh_sess=J%2FHPZ8fIvQ11aVq9aeKYhpCHqQFJLQ0zK9xJFOOcDATm%2FM3kJAz6vdE%2FmAlLoSKcUqSCE2ACKYs8DoEvSGfr6Vvq%2FtCG28EqjhgJ%2F9dywFIQuLUS%2BOQArimsYmg3C2P3ADUvfKiLP78VjfsYvbcp1SGLZ8ScW1UwQ55SIPAKwsMFpWVFltMcHrD3cs8wWDrdgiK3FNdm8PK%2BeycwPGc2cDOPsomRwtW28hJ%2BXwTP%2BNRrazCLt1HRTQTw9a5D%2B6AEnCv6tzJ2S%2FRR3AvVuPxUxw%3D%3D--rH26Jb%2BymQ23182w--Iv9Sfd6Fb1HTaeCbQxlaGQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+112 silly get        '_octo=GH1.1.758042193.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+112 silly get        'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+112 silly get     'content-length': '52',
+112 silly get     'x-github-request-id': 'CB36:34C3:1289AEF:13A1D03:6364319E' } ]
+113 http 404 https://github.com/saumyapalk23/T8015_Healthly.git/express
+114 verbose headers { server: 'GitHub.com',
+114 verbose headers   date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+114 verbose headers   'content-type': 'application/json; charset=utf-8',
+114 verbose headers   vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+114 verbose headers   'cache-control': 'no-cache',
+114 verbose headers   'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+114 verbose headers   'x-frame-options': 'deny',
+114 verbose headers   'x-content-type-options': 'nosniff',
+114 verbose headers   'x-xss-protection': '0',
+114 verbose headers   'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+114 verbose headers   'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+114 verbose headers   'content-encoding': 'gzip',
+114 verbose headers   'set-cookie':
+114 verbose headers    [ '_gh_sess=lfpMnTWzg56GQ9qNMw1KUg9Z9VWTYscwWTB5Hwrp2e15O0j8dmK2vietFiwUBcgHwvDu93%2F1jzNn3Qlqs35HP9luoo5TfjXIC%2FELrp4c1lb9pt%2BMSxNtpc6fjrIIl9M0sHMi3cgmAhmWwiaTRa6VIihalOijC1%2F1v1l06kCGOdQ0jRGc2SVC8whKg3fH4ILuxNdPvMvJwL2fyi84iRzZWe%2ByoA%2BBrwZ72zfSjfEtBC7mOfOFQpNcP2FUyP8uTfg6BAhOkP4XyugTrVM3H70ybA%3D%3D--UNDnPhJPSlS0YCvl--CpIRisCq%2BOm8hieSl%2BGvoQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+114 verbose headers      '_octo=GH1.1.846538265.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+114 verbose headers      'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+114 verbose headers   'content-length': '52',
+114 verbose headers   'x-github-request-id': 'BD53:3535:11A0E9B:12B580D:6364319E' }
+115 silly get cb [ 404,
+115 silly get   { server: 'GitHub.com',
+115 silly get     date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+115 silly get     'content-type': 'application/json; charset=utf-8',
+115 silly get     vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+115 silly get     'cache-control': 'no-cache',
+115 silly get     'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+115 silly get     'x-frame-options': 'deny',
+115 silly get     'x-content-type-options': 'nosniff',
+115 silly get     'x-xss-protection': '0',
+115 silly get     'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+115 silly get     'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+115 silly get     'content-encoding': 'gzip',
+115 silly get     'set-cookie':
+115 silly get      [ '_gh_sess=lfpMnTWzg56GQ9qNMw1KUg9Z9VWTYscwWTB5Hwrp2e15O0j8dmK2vietFiwUBcgHwvDu93%2F1jzNn3Qlqs35HP9luoo5TfjXIC%2FELrp4c1lb9pt%2BMSxNtpc6fjrIIl9M0sHMi3cgmAhmWwiaTRa6VIihalOijC1%2F1v1l06kCGOdQ0jRGc2SVC8whKg3fH4ILuxNdPvMvJwL2fyi84iRzZWe%2ByoA%2BBrwZ72zfSjfEtBC7mOfOFQpNcP2FUyP8uTfg6BAhOkP4XyugTrVM3H70ybA%3D%3D--UNDnPhJPSlS0YCvl--CpIRisCq%2BOm8hieSl%2BGvoQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+115 silly get        '_octo=GH1.1.846538265.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+115 silly get        'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+115 silly get     'content-length': '52',
+115 silly get     'x-github-request-id': 'BD53:3535:11A0E9B:12B580D:6364319E' } ]
+116 http 404 https://github.com/saumyapalk23/T8015_Healthly.git/bufferutil
+117 verbose headers { server: 'GitHub.com',
+117 verbose headers   date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+117 verbose headers   'content-type': 'application/json; charset=utf-8',
+117 verbose headers   vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+117 verbose headers   'cache-control': 'no-cache',
+117 verbose headers   'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+117 verbose headers   'x-frame-options': 'deny',
+117 verbose headers   'x-content-type-options': 'nosniff',
+117 verbose headers   'x-xss-protection': '0',
+117 verbose headers   'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+117 verbose headers   'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+117 verbose headers   'content-encoding': 'gzip',
+117 verbose headers   'set-cookie':
+117 verbose headers    [ '_gh_sess=CCOwh2Ijz61D3rA2Crbv8UncC5Z%2BHpdh%2FnY0W16wNYTWf84T9SUDBJVlf1vZ%2FCrayeOtQgYidRD4POtYTHxud7VjHnK25FBEN7OJsQAP3LKJtOzEzOVVa%2FTht9grVwcfSzrcsqm93gKqnYh7Nw2cWfa4%2FEA53AmUNTRs8zxXrhq2fJWxzc9SJOBNeF36twXLv240Pj4yyv7rL3Mp81d%2BE4fDHUSbra9WL4niezVKadmh3bVUNPtJr3V%2Bp5vT%2Fk3TBhsHeto4m5JlWYpDR48KbQ%3D%3D--R7OF7vWGtVIfzyld--NNUHNF3rpp284SrHSeT56w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+117 verbose headers      '_octo=GH1.1.781418863.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+117 verbose headers      'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+117 verbose headers   'content-length': '52',
+117 verbose headers   'x-github-request-id': '7A2D:0392:123F765:1354D24:6364319E' }
+118 silly get cb [ 404,
+118 silly get   { server: 'GitHub.com',
+118 silly get     date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+118 silly get     'content-type': 'application/json; charset=utf-8',
+118 silly get     vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+118 silly get     'cache-control': 'no-cache',
+118 silly get     'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+118 silly get     'x-frame-options': 'deny',
+118 silly get     'x-content-type-options': 'nosniff',
+118 silly get     'x-xss-protection': '0',
+118 silly get     'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+118 silly get     'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+118 silly get     'content-encoding': 'gzip',
+118 silly get     'set-cookie':
+118 silly get      [ '_gh_sess=CCOwh2Ijz61D3rA2Crbv8UncC5Z%2BHpdh%2FnY0W16wNYTWf84T9SUDBJVlf1vZ%2FCrayeOtQgYidRD4POtYTHxud7VjHnK25FBEN7OJsQAP3LKJtOzEzOVVa%2FTht9grVwcfSzrcsqm93gKqnYh7Nw2cWfa4%2FEA53AmUNTRs8zxXrhq2fJWxzc9SJOBNeF36twXLv240Pj4yyv7rL3Mp81d%2BE4fDHUSbra9WL4niezVKadmh3bVUNPtJr3V%2Bp5vT%2Fk3TBhsHeto4m5JlWYpDR48KbQ%3D%3D--R7OF7vWGtVIfzyld--NNUHNF3rpp284SrHSeT56w%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+118 silly get        '_octo=GH1.1.781418863.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+118 silly get        'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+118 silly get     'content-length': '52',
+118 silly get     'x-github-request-id': '7A2D:0392:123F765:1354D24:6364319E' } ]
+119 warn optional dep failed, continuing bufferutil@^4.0.7
+120 verbose optional dep failed, continuing [ 'bufferutil@^4.0.7',
+120 verbose optional dep failed, continuing   { Error: Not Found : bufferutil
+120 verbose optional dep failed, continuing       at makeError (/home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+120 verbose optional dep failed, continuing       at CachingRegistryClient.<anonymous> (/home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+120 verbose optional dep failed, continuing       at /home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+120 verbose optional dep failed, continuing       at Gunzip.onEnd (zlib.js:227:5)
+120 verbose optional dep failed, continuing       at emitNone (events.js:91:20)
+120 verbose optional dep failed, continuing       at Gunzip.emit (events.js:185:7)
+120 verbose optional dep failed, continuing       at endReadableNT (_stream_readable.js:974:12)
+120 verbose optional dep failed, continuing       at _combinedTickCallback (internal/process/next_tick.js:80:11)
+120 verbose optional dep failed, continuing       at process._tickCallback (internal/process/next_tick.js:104:9) pkgid: 'bufferutil', statusCode: 404, code: 'E404' } ]
+121 http 404 https://github.com/saumyapalk23/T8015_Healthly.git/socket.io
+122 verbose bad json Not Found
+123 error registry error parsing json
+124 verbose headers { server: 'GitHub.com',
+124 verbose headers   date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+124 verbose headers   'content-type': 'text/plain; charset=utf-8',
+124 verbose headers   vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+124 verbose headers   'cache-control': 'no-cache',
+124 verbose headers   'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+124 verbose headers   'x-frame-options': 'deny',
+124 verbose headers   'x-content-type-options': 'nosniff',
+124 verbose headers   'x-xss-protection': '0',
+124 verbose headers   'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+124 verbose headers   'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+124 verbose headers   'content-encoding': 'gzip',
+124 verbose headers   'set-cookie':
+124 verbose headers    [ '_gh_sess=StNYVNxNcHRej6eyGmZKzQw27IYqjiYI14uIMv%2BolSUbqlp98pE9L6hxUIS15KXCdBj604rlhEKr%2FYGRCm6mkLFPIVoEboxRO3%2FXltJgsyT9rTEDWeE90pqKxw04SdhY1a4w%2FQEM0QGdG%2FYlDMhJkC1rwxAlSsMYTOwQmCRJLHcFtN6311OOnGZKvgfDJ0WECP8pQbEd%2FasHKYZ7PqEnxbTxQRlNfKou30wRyvV87TXX3S3UIb2xhuNCozeNbzf6Jx09QBLy%2FtFi2p0Z3dvWPw%3D%3D--J4cCnoqL0q483svw--NQxXU%2BxaE0enokJbceIqBQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+124 verbose headers      '_octo=GH1.1.956791197.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+124 verbose headers      'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+124 verbose headers   'content-length': '40',
+124 verbose headers   'x-github-request-id': '6A89:536A:1274DBC:138AC03:6364319E' }
+125 silly get cb [ 404,
+125 silly get   { server: 'GitHub.com',
+125 silly get     date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+125 silly get     'content-type': 'text/plain; charset=utf-8',
+125 silly get     vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+125 silly get     'cache-control': 'no-cache',
+125 silly get     'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+125 silly get     'x-frame-options': 'deny',
+125 silly get     'x-content-type-options': 'nosniff',
+125 silly get     'x-xss-protection': '0',
+125 silly get     'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+125 silly get     'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+125 silly get     'content-encoding': 'gzip',
+125 silly get     'set-cookie':
+125 silly get      [ '_gh_sess=StNYVNxNcHRej6eyGmZKzQw27IYqjiYI14uIMv%2BolSUbqlp98pE9L6hxUIS15KXCdBj604rlhEKr%2FYGRCm6mkLFPIVoEboxRO3%2FXltJgsyT9rTEDWeE90pqKxw04SdhY1a4w%2FQEM0QGdG%2FYlDMhJkC1rwxAlSsMYTOwQmCRJLHcFtN6311OOnGZKvgfDJ0WECP8pQbEd%2FasHKYZ7PqEnxbTxQRlNfKou30wRyvV87TXX3S3UIb2xhuNCozeNbzf6Jx09QBLy%2FtFi2p0Z3dvWPw%3D%3D--J4cCnoqL0q483svw--NQxXU%2BxaE0enokJbceIqBQ%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+125 silly get        '_octo=GH1.1.956791197.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+125 silly get        'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+125 silly get     'content-length': '40',
+125 silly get     'x-github-request-id': '6A89:536A:1274DBC:138AC03:6364319E' } ]
+126 http 404 https://github.com/saumyapalk23/T8015_Healthly.git/utf-8-validate
+127 verbose headers { server: 'GitHub.com',
+127 verbose headers   date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+127 verbose headers   'content-type': 'application/json; charset=utf-8',
+127 verbose headers   vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+127 verbose headers   'cache-control': 'no-cache',
+127 verbose headers   'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+127 verbose headers   'x-frame-options': 'deny',
+127 verbose headers   'x-content-type-options': 'nosniff',
+127 verbose headers   'x-xss-protection': '0',
+127 verbose headers   'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+127 verbose headers   'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+127 verbose headers   'content-encoding': 'gzip',
+127 verbose headers   'set-cookie':
+127 verbose headers    [ '_gh_sess=IYdDrsvUpeTNKPF7hgeQ3kLJ3ZC9EUla%2FisKrO%2BWeIGYwgFGRRwYhJu%2FiIvQBE8lWf8OzvXZOdeTwAzE2hHG%2Bj7iZTjYWBGjyorvpfcJO%2BQZvKHrYXPFG56maoeAtmVb0JFNbAN2CZmSZyD%2BejWIx%2FwU9D9FUIy29w81aeA%2BpS0evFmEdREjoIS7vgUSMJWZt4ONgCpCEBSL%2FpBufBm8AEuveLlrjOW6JRprCkTWVemfEBXc62YdoVKwB0iUmSrgKWLlBPatnM0OFNCy9hjsbA%3D%3D--AojkKoLRAO3HApWW--2jVPCrsXTo7NfcXWZt5vbA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+127 verbose headers      '_octo=GH1.1.1102546160.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+127 verbose headers      'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+127 verbose headers   'content-length': '52',
+127 verbose headers   'x-github-request-id': '65CA:4A7C:11F4D2A:130A1BE:6364319E' }
+128 silly get cb [ 404,
+128 silly get   { server: 'GitHub.com',
+128 silly get     date: 'Thu, 03 Nov 2022 21:24:47 GMT',
+128 silly get     'content-type': 'application/json; charset=utf-8',
+128 silly get     vary: 'X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With',
+128 silly get     'cache-control': 'no-cache',
+128 silly get     'strict-transport-security': 'max-age=31536000; includeSubdomains; preload',
+128 silly get     'x-frame-options': 'deny',
+128 silly get     'x-content-type-options': 'nosniff',
+128 silly get     'x-xss-protection': '0',
+128 silly get     'referrer-policy': 'origin-when-cross-origin, strict-origin-when-cross-origin',
+128 silly get     'content-security-policy': 'default-src \'none\'; base-uri \'self\'; connect-src \'self\'; form-action \'self\'; img-src \'self\' data:; script-src \'self\'; style-src \'unsafe-inline\'',
+128 silly get     'content-encoding': 'gzip',
+128 silly get     'set-cookie':
+128 silly get      [ '_gh_sess=IYdDrsvUpeTNKPF7hgeQ3kLJ3ZC9EUla%2FisKrO%2BWeIGYwgFGRRwYhJu%2FiIvQBE8lWf8OzvXZOdeTwAzE2hHG%2Bj7iZTjYWBGjyorvpfcJO%2BQZvKHrYXPFG56maoeAtmVb0JFNbAN2CZmSZyD%2BejWIx%2FwU9D9FUIy29w81aeA%2BpS0evFmEdREjoIS7vgUSMJWZt4ONgCpCEBSL%2FpBufBm8AEuveLlrjOW6JRprCkTWVemfEBXc62YdoVKwB0iUmSrgKWLlBPatnM0OFNCy9hjsbA%3D%3D--AojkKoLRAO3HApWW--2jVPCrsXTo7NfcXWZt5vbA%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax',
+128 silly get        '_octo=GH1.1.1102546160.1667510687; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; Secure; SameSite=Lax',
+128 silly get        'logged_in=no; Path=/; Domain=github.com; Expires=Fri, 03 Nov 2023 21:24:47 GMT; HttpOnly; Secure; SameSite=Lax' ],
+128 silly get     'content-length': '52',
+128 silly get     'x-github-request-id': '65CA:4A7C:11F4D2A:130A1BE:6364319E' } ]
+129 warn optional dep failed, continuing utf-8-validate@^5.0.10
+130 verbose optional dep failed, continuing [ 'utf-8-validate@^5.0.10',
+130 verbose optional dep failed, continuing   { Error: Not Found : utf-8-validate
+130 verbose optional dep failed, continuing       at makeError (/home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+130 verbose optional dep failed, continuing       at CachingRegistryClient.<anonymous> (/home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+130 verbose optional dep failed, continuing       at /home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+130 verbose optional dep failed, continuing       at Gunzip.onEnd (zlib.js:227:5)
+130 verbose optional dep failed, continuing       at emitNone (events.js:91:20)
+130 verbose optional dep failed, continuing       at Gunzip.emit (events.js:185:7)
+130 verbose optional dep failed, continuing       at endReadableNT (_stream_readable.js:974:12)
+130 verbose optional dep failed, continuing       at _combinedTickCallback (internal/process/next_tick.js:80:11)
+130 verbose optional dep failed, continuing       at process._tickCallback (internal/process/next_tick.js:104:9) pkgid: 'utf-8-validate', statusCode: 404, code: 'E404' } ]
+131 verbose stack Error: Not Found : eiows
+131 verbose stack     at makeError (/home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+131 verbose stack     at CachingRegistryClient.<anonymous> (/home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+131 verbose stack     at /home/spalak06/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+131 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+131 verbose stack     at emitNone (events.js:91:20)
+131 verbose stack     at Gunzip.emit (events.js:185:7)
+131 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+131 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+131 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+132 verbose statusCode 404
+133 verbose pkgid eiows
+134 verbose cwd /mnt/c/Users/Saumya/.vscode/T8015_Healthly
+135 error Linux 5.10.16.3-microsoft-standard-WSL2
+136 error argv "/home/spalak06/anaconda3/bin/node" "/home/spalak06/bin/npm" "install"
+137 error node v6.11.2
+138 error npm  v2.15.12
+139 error code E404
+140 error 404 Not Found : eiows
+140 error 404
+140 error 404 'eiows' is not in the npm registry.
+140 error 404 You should bug the author to publish it (or use the name yourself!)
+140 error 404 It was specified as a dependency of 'healthysite'
+140 error 404
+140 error 404 Note that you can also install from a
+140 error 404 tarball, folder, http url, or git url.
+141 verbose exit [ 1, true ]
