@@ -10,14 +10,17 @@
 </head>
 <body>
     <div class="container">
-        <a th:href="@{/}">Blog</a>
+        <a th:href="@{/}">Home</a>
         <div class="post">
             <h2 th:text="${post.title}">Title</h2>
-            <h5 th:text="'Written By ' + ${post.account.firstName}+ ' '+${post.account.lastName}">Account Name</h5>
             <h5 th:text="'Created at ' + ${post.createdAt}">Created At</h5>
+            <h5 th:text="'Updated at ' + ${post.updatedAt}">Updated At</h5>
             <p th:text="${post.body}">body text</p>
         </div>
-       
+        <ul sec:authorize="isAuthenticated()">
+            <li><a th:href="@{'/posts/' + ${post.id} + '/edit'}">Edit</a></li>
+            <li><a th:href="@{'/posts/' + ${post.id} + '/delete'}">Delete</a></li>
+        </ul>
     </div>
 
 </body>
